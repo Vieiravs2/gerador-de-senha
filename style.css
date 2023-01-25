@@ -2,9 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 input {
   height: 100px;
   width: 400px;
+}
+
+#heading {
+  background-color: pink;
+  padding: 30px 15px;
+  margin-bottom: 50px;
+}
+
+#title {
+  text-align: center;
 }
