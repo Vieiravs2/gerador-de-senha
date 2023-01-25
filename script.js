@@ -19,6 +19,12 @@ const gerarSenha = () => {
     setTimeout(() => {
       mensagemDeErro.innerText = ''
     }, 2000);
+  } else if (inputCaracteres.value < 7) {
+    inputCaracteres.value = 7;
+    mensagemDeErro.innerText = 'O mínimo de caracteres que podem ser gerados é 7.';
+    setTimeout(() => {
+      mensagemDeErro.innerText = ''
+    }, 2000);
   }
 
   
